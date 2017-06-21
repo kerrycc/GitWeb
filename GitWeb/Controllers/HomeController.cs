@@ -10,7 +10,6 @@ namespace GitWeb.Controllers
     {
         public ActionResult Index()
         {
-            // This is test
             ViewBag.Message = "No Show";
             return View();
         }
